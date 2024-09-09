@@ -15,17 +15,17 @@ const entrySchema = new Schema({
   },
   facilityId: {
     type: String,
-    required: true,
+    required: false,
     trim: true,
   },
   subDistrictId: {
     type: String,
-    required: true,
+    required: false,
     trim: true,
   },
   districtId: {
     type: String,
-    required: true,
+    required: false,
     trim: true,
   },
   data: {
